@@ -1,0 +1,13 @@
+{
+    "actorSpecification": 1,
+    "name": "us-treasury-interest-rate-tracker",
+    "title": "US Treasury Interest Rate Tracker",
+    "description": "Track the average monthly interest rate the US Treasury pays across a security category (Treasury Bills, Notes, Bonds, TIPS, and more), with year-over-year comparison, via the official US Treasury Fiscal Data API.",
+    "version": "0.1",
+    "meta": {
+        "templateId": "custom-no-proxy"
+    },
+    "input": "./input_schema.json",
+    "output": "./output_schema.json",
+    "dockerfile": "../Dockerfile"
+}

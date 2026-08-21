@@ -1,0 +1,34 @@
+{
+    "title": "US Treasury Interest Rate Tracker Input",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "securityKeyword": {
+            "title": "Security keyword",
+            "type": "string",
+            "editor": "textfield",
+            "description": "Case-insensitive match against the security description, e.g. \"Treasury Bills\", \"Treasury Notes\", \"Treasury Bonds\", \"TIPS\", \"Total Interest-bearing Debt\". Leave blank to return all security categories.",
+            "prefill": "Treasury Bills",
+            "default": "Treasury Bills"
+        },
+        "monthsBack": {
+            "title": "Months back",
+            "type": "integer",
+            "editor": "number",
+            "description": "How many months of history to fetch, by record date. Data is published monthly.",
+            "default": 12,
+            "minimum": 1,
+            "maximum": 60
+        },
+        "maxResults": {
+            "title": "Max results",
+            "type": "integer",
+            "editor": "number",
+            "description": "Maximum number of monthly records to return, most recent first.",
+            "default": 50,
+            "minimum": 1,
+            "maximum": 200
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,11 @@
+{
+    "actorOutputSchemaVersion": 1,
+    "title": "Output schema of US Treasury Interest Rate Tracker",
+    "properties": {
+        "results": {
+            "type": "string",
+            "title": "Interest rate records",
+            "template": "{{links.apiDefaultDatasetUrl}}/items"
+        }
+    }
+}
