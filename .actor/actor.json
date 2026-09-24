@@ -1,7 +1,7 @@
 {
     "actorSpecification": 1,
     "name": "us-treasury-interest-rate-tracker",
-    "title": "US Treasury Interest Rate Tracker",
+    "title": "US Treasury Interest Rates: Bills, Notes, Bonds",
     "description": "Track the average monthly interest rate the US Treasury pays across a security category (Treasury Bills, Notes, Bonds, TIPS, and more), with year-over-year comparison, via the official US Treasury Fiscal Data API.",
     "version": "0.1",
     "meta": {
