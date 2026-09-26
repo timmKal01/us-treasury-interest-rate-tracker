@@ -1,0 +1,43 @@
+{
+    "actorSpecification": 1,
+    "fields": {},
+    "views": {
+        "overview": {
+            "title": "Overview",
+            "transformation": {
+                "fields": [
+                    "date",
+                    "securityDescription",
+                    "securityType",
+                    "avgInterestRatePercent",
+                    "yearOverYearChangePercentagePoints"
+                ]
+            },
+            "display": {
+                "component": "table",
+                "properties": {
+                    "date": {
+                        "label": "Month",
+                        "format": "date"
+                    },
+                    "securityDescription": {
+                        "label": "Security",
+                        "format": "text"
+                    },
+                    "securityType": {
+                        "label": "Type",
+                        "format": "text"
+                    },
+                    "avgInterestRatePercent": {
+                        "label": "Average rate (%)",
+                        "format": "number"
+                    },
+                    "yearOverYearChangePercentagePoints": {
+                        "label": "Change vs a year ago (pp)",
+                        "format": "number"
+                    }
+                }
+            }
+        }
+    }
+}
