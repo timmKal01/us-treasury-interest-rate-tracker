@@ -18,7 +18,7 @@
                 "properties": {
                     "date": {
                         "label": "Month",
-                        "format": "date"
+                        "format": "text"
                     },
                     "securityDescription": {
                         "label": "Security",
