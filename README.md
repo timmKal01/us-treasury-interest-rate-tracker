@@ -51,7 +51,7 @@ Direct calls to the official [Treasury Fiscal Data
 API](https://fiscaldata.treasury.gov/) (`api.fiscaldata.treasury.gov`)
 — no proxy, no key, no scraping. Same platform and mechanism as this
 portfolio's [US National Debt
-Tracker](https://github.com/timmKal01/us-national-debt-tracker),
+Tracker](https://apify.com/m_ctim/us-national-debt-tracker),
 applied to a different dataset.
 
 ## Pricing note
@@ -60,5 +60,5 @@ Billed per **search** (one run), not per record returned.
 
 ## Related products
 
-- [US National Debt Tracker](https://github.com/timmKal01/us-national-debt-tracker) — daily national debt from the same Treasury Fiscal Data platform
-- [US Labor Market Indicator Lookup](https://github.com/timmKal01/us-labor-market-indicator-lookup) — national labor market data from the same US-macro-data family
+- [US National Debt Tracker](https://apify.com/m_ctim/us-national-debt-tracker): daily national debt from the same Treasury Fiscal Data platform
+- [US Labor Data](https://apify.com/m_ctim/us-labor-market-indicator-lookup): national labor market data from the same US-macro-data family
